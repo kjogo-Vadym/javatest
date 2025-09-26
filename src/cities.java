@@ -1,13 +1,15 @@
+
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class cities {
 
         public  static void main(String[] args) {
-            ArrayList<String> cities = new ArrayList<>();
-            cities.add("Киев");
-            cities.add("Lviv");
-            cities.add("Kremenchuck");
-            cities.add("Madrid");
+            List<String> cities = new ArrayList<>(Arrays.asList(
+                    "Lviv"
+            ));
+            cities.add("Kyiv");
             System.out.println("Список городов");
             for (String city : cities) {
                 System.out.println(city);

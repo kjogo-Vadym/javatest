@@ -8,5 +8,8 @@ public class Main {
         System.out.println( "Age : " + age );
         System.out.println( "Height : " + height );
         System.out.println( "Is Student: " + IsStudent );
+        Calculator calculator = new Calculator();
+        calculator.add(4, 10);
+        System.out.println("Сума: " + calculator.add(4, 10));
     }
     }
